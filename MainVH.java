@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class MainVH {
     public static void main(String[] args) {
         VectorHeap<Paciente> cola = new VectorHeap<>();
         ArrayList<Paciente> lista = Lector.leerlistapacientes("pacientes.txt");
@@ -9,7 +9,7 @@ public class Main {
             cola.add(p);
         }
 
-        System.out.println("Atendiendo pacientes por orden de prioridad:");
+        System.out.println("Atendiendo pacientes por orden de prioridad y Heap:");
         while (!cola.isEmpty()) {
             System.out.println(cola.remove());
         }
