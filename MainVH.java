@@ -1,4 +1,7 @@
 import java.util.ArrayList;
+/**
+ * Clase principal que usa VectorHeap para atender pacientes por prioridad.
+ */
 
 public class MainVH {
     public static void main(String[] args) {

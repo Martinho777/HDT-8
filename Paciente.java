@@ -1,3 +1,8 @@
+/**
+ * Representa un paciente que llega al hospital.
+ * Cada paciente tiene un nombre, sintoma y un nivel de prioridad de atencion.
+ */
+
 public class Paciente implements Comparable<Paciente> {
     private String nombre;
     private String sintoma;

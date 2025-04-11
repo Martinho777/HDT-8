@@ -3,6 +3,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Clase para leer pacientes desde un archivo de texto.
+ */
+
 public class Lector {
 
     public static ArrayList<Paciente> leerlistapacientes(String pacientes) {

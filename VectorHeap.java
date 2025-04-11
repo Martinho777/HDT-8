@@ -1,3 +1,9 @@
+
+/**
+ * Implementa una cola con prioridad basada en un heap binario.
+ * Los elementos de mayor prioridad se encuentran al inicio.
+ * @param <E> Tipo de elemento que debe ser Comparable
+ */
 import java.util.ArrayList;
 
 public class VectorHeap<E extends Comparable<E>> {
